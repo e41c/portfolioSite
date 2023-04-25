@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    
+}
+
+.bottomBox {
+}
+
+.bottom-cloud {
+    position: absolute; left: 300px; right: 300px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size:5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.imgComputer {
+    width: 25%;
+}
+
+.imgWebDev{
+    height: 20%; width: 30%;
+}
+
+.imgLanguages{
+    height: 20%; width: 30%;
+}
+
+.topBox {
+    background-color: lightslategray;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute; 
+    right: 300px; 
+    top: 50px;
+}
+
+.middleBox {
+    
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
