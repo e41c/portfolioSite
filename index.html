@@ -10,9 +10,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleThemeBtn = document.getElementById('toggleThemeBtn');
+    const body = document.body;
+
+    toggleThemeBtn.addEventListener('click', function () {
+      body.classList.toggle('dark-mode');
+    });
+  });
+</script>
+
 </head>
 <body>
 
+  <header>
+    <nav class="nav">
+      <div class="nav-logo">
+        <a href="#">Eric Grigor</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="toggleThemeBtn" class="nav-dark-toggle">Toggle Dark/Light Mode</button>
+    </nav>
+  </header>
+  
     <div class="topBox">
         <img src="img/cloud.png" alt="cloud img" class="top-cloud">
         <h1>I'm Eric.</h1>
@@ -55,7 +81,7 @@
           <h2>Get In Touch</h2>
         <h3>Reach out to me by e-mail</h3>
             <p>Always looking to take on new clients and projects.</p>
-        <a class="btn" href="mailto:le41cl@gmail.com">CONTACT ME</a>
+        <a class="btn" href="mailto:le41cl@gmail.com"su>CONTACT ME</a>
         </div>
       </div>
       <hr>

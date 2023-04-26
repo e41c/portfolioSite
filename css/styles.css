@@ -73,3 +73,123 @@ p {
     text-align: left;
     line-height: 2;
 }
+
+
+/* Test for darkmode */
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .topBox {
+    background-color: #333;
+  }
+  
+  .dark-mode img {
+    filter: brightness(0.7);
+  }
+  
+  .dark-mode .skill-row {
+    background-color: #222;
+  }
+  
+  .dark-mode .contact-me {
+    background-color: #222;
+  }
+  
+  .dark-mode .bottom-container {
+    background-color: #333;
+  }
+
+  #toggleThemeBtn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin: 20px;
+  }
+  
+  #toggleThemeBtn:hover {
+    background-color: #3a3a3a;
+  }
+  
+  #toggleThemeBtn:active {
+    background-color: #2a2a2a;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* end - Test for darkmode */
+
+  
+  
+  
+  /* start - nav bar */
+  header {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 80px;
+  }
+  
+  .nav-logo a {
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    color: #777;
+  }
+  
+  .nav-dark-toggle {
+    margin-left: 20px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+ /* end - nav bar */
+
+  
